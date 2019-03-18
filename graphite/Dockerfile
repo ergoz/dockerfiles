@@ -5,7 +5,7 @@
 FROM alpine
 MAINTAINER EasyPi Software Foundation
 
-ENV GRAPHITE_VERSION=1.1.2
+ENV GRAPHITE_VERSION=1.1.5
 ENV GRAPHITE_CONF_DIR=/opt/graphite/conf
 ENV GRAPHITE_STORAGE_DIR=/opt/graphite/storage
 ENV PATH=$PATH:/opt/graphite/bin
@@ -48,8 +48,11 @@ COPY supervisord.conf /etc/supervisor/
 VOLUME $GRAPHITE_CONF_DIR \
        $GRAPHITE_STORAGE_DIR
 
-EXPOSE 2003 \
+EXPOSE 2003/udp \
+       2003 \
        2004 \
+       2023 \
+       2024 \
        7002 \
        8080 \
        9001

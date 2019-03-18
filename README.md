@@ -21,7 +21,6 @@ A collection of delicious docker recipes.
 - [ ] caddy
 - [ ] dsniff
 - [ ] ettercap
-- [ ] freegeoip
 - [ ] freelan
 - [ ] gitbook
 - [ ] gitolite
@@ -43,6 +42,14 @@ A collection of delicious docker recipes.
 - [ ] ssf
 - [ ] tshark
 - [ ] youtube-upload
+
+## Big Data
+
+- [x] kafka-arm
+- [x] kafka-manager
+- [x] presto-server
+- [x] superset-arm
+- [x] zookeeper-arm
 
 ## IoT
 
@@ -68,6 +75,7 @@ A collection of delicious docker recipes.
 - [x] cadvisor
 - [x] casperjs :+1:
 - [x] collectd
+- [x] freegeoip
 - [x] freeradius
 - [x] frp :cn:
 - [x] graphite
@@ -154,7 +162,6 @@ A collection of delicious docker recipes.
 - [x] json-server
 - [x] mantisbt
 - [x] mediagoblin
-- [x] netdata
 - [x] nginad
 - [x] nodebb :+1:
 - [x] openrefine
@@ -173,6 +180,7 @@ A collection of delicious docker recipes.
 
 ## Security
 
+- [x] aircrack-ng-arm
 - [x] bro
 - [x] clamav
 - [x] dsniff
@@ -180,6 +188,7 @@ A collection of delicious docker recipes.
 - [x] grr
 - [x] hydra
 - [x] iptables
+- [x] kismet
 - [x] routersploit
 - [x] snort :beetle:
 - [x] sslsplit
@@ -241,33 +250,45 @@ A collection of delicious docker recipes.
 
 ## 3rd-party
 
-- [x] cachethq/docker
-- [x] centurylink/watchtower
+- [x] tutum/builder
+- [x] browserless/chrome
 - [x] certbot
+- [x] streamsets/datacollector
+- [x] cachethq/docker
+- [x] puckel/docker-airflow
 - [x] drone/drone
 - [x] drupal
+- [x] elastalert
 - [x] elk
+- [x] mher/flower
 - [x] ghost
 - [x] gitlab/gitlab-ce
-- [ ] gliderlabs/logspout
+- [x] gliderlabs/logspout
 - [x] gliderlabs/registrator
 - [ ] glot
     - [ ] bash
     - [ ] python
 - [x] gogs :cn:
 - [x] haproxy
+- [x] jmxtrans/jmxtrans
+- [x] wurstmeister/kafka
+- [x] netdata/netdata
 - [x] nextcloud
 - [x] jazzdd/phpvirtualbox
 - [x] jenkins
 - [x] jupyter/notebook
 - [x] kylemanna/openvpn
+- [x] metabase/metabase
 - [x] metasploitframework/metasploit-framework :skull:
 - [x] minio/minio
 - [x] mongo
 - [x] neo4j
 - [x] odoo
+- [x] osixia/openldap
+- [x] campbellsoftwaresolutions/osticket
 - [x] owncloud
 - [x] phpmyadmin
+- [x] pihole/pihole
 - [x] portainer/portainer :+1:
 - [x] postgres
 - [x] registry
@@ -277,10 +298,14 @@ A collection of delicious docker recipes.
     - [ ] hub
     - [ ] node-firefox
     - [x] standalone-firefox
-- [x] tutum/builder
+- [x] sentry
+- [x] amancevice/superset
 - [x] v2ray/official :cn:
+- [x] centurylink/watchtower
 - [x] wekanteam/wekan
+- [x] yourls
 - [x] zookeeper
+- [x] elkozmon/zoonavigator
 
 ## auto-completion
 
